@@ -1,0 +1,75 @@
+﻿  record.cc
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\miniglog.h(160,36): warning C4138: 在注释外找到“*/”
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\miniglog.h(292,20): warning C4251: “MessageLogger::file_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“MessageLogger”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.26.28801\include\xstring(4575): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\miniglog.h(293,29): warning C4251: “MessageLogger::filename_only_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“MessageLogger”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.26.28801\include\xstring(4575): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\miniglog.h(295,19): warning C4251: “MessageLogger::tag_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“MessageLogger”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.26.28801\include\xstring(4575): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\miniglog.h(296,28): warning C4251: “MessageLogger::stream_”: class“std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“MessageLogger”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.26.28801\include\iosfwd(222): message : 参见“std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\types.h(762,40): warning C4251: “mynteye::CameraROSMsgInfo::distortion_model”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“mynteye::CameraROSMsgInfo”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.26.28801\include\xstring(4575): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\callbacks.h(105,15): warning C4251: “mynteye::device::Frame::data_”: class“std::vector<uchar,std::allocator<uchar>>”需要有 dll 接口由 class“mynteye::device::Frame”的客户端使用
+C:\opencv\opencv\build\include\opencv2\core\mat.hpp(2691): message : 参见“std::vector<uchar,std::allocator<uchar>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\callbacks.h(114,31): warning C4251: “mynteye::device::StreamData::img”: class“std::shared_ptr<mynteye::ImgData>”需要有 dll 接口由 struct“mynteye::device::StreamData”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\callbacks.h(114): message : 参见“std::shared_ptr<mynteye::ImgData>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\callbacks.h(116,31): warning C4251: “mynteye::device::StreamData::frame”: class“std::shared_ptr<mynteye::device::Frame>”需要有 dll 接口由 struct“mynteye::device::StreamData”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\callbacks.h(116): message : 参见“std::shared_ptr<mynteye::device::Frame>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\callbacks.h(127,31): warning C4251: “mynteye::device::MotionData::imu”: class“std::shared_ptr<mynteye::ImuData>”需要有 dll 接口由 struct“mynteye::device::MotionData”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\callbacks.h(127): message : 参见“std::shared_ptr<mynteye::ImuData>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\types.h(142,3): warning C4251: “mynteye::HardwareVersion::flag_”: class“std::bitset<8>”需要有 dll 接口由 class“mynteye::HardwareVersion”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\types.h(134): message : 参见“std::bitset<8>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\types.h(171,19): warning C4251: “mynteye::DeviceInfo::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“mynteye::DeviceInfo”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.26.28801\include\xstring(4575): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\types.h(172,28): warning C4251: “mynteye::DeviceInfo::serial_number”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“mynteye::DeviceInfo”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.26.28801\include\xstring(4575): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(357,39): warning C4251: “mynteye::Device::device_”: class“std::shared_ptr<mynteye::uvc::device>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(82): message : 参见“std::shared_ptr<mynteye::uvc::device>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(358,43): warning C4251: “mynteye::Device::device_info_”: class“std::shared_ptr<mynteye::DeviceInfo>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(153): message : 参见“std::shared_ptr<mynteye::DeviceInfo>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(360,35): warning C4251: “mynteye::Device::all_img_params_”: class“std::map<mynteye::Resolution,mynteye::Device::img_params_t,std::less<mynteye::Resolution>,std::allocator<std::pair<const mynteye::Resolution,mynteye::Device::img_params_t>>>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(77): message : 参见“std::map<mynteye::Resolution,mynteye::Device::img_params_t,std::less<mynteye::Resolution>,std::allocator<std::pair<const mynteye::Resolution,mynteye::Device::img_params_t>>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(363,71): warning C4251: “mynteye::Device::stream_intrinsics_”: class“std::map<mynteye::Stream,std::shared_ptr<mynteye::IntrinsicsBase>,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,std::shared_ptr<mynteye::IntrinsicsBase>>>>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(363): message : 参见“std::map<mynteye::Stream,std::shared_ptr<mynteye::IntrinsicsBase>,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,std::shared_ptr<mynteye::IntrinsicsBase>>>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(364,73): warning C4251: “mynteye::Device::stream_from_extrinsics_”: class“std::map<mynteye::Stream,std::map<mynteye::Stream,mynteye::Extrinsics,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,mynteye::Extrinsics>>>,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,std::map<mynteye::Stream,mynteye::Extrinsics,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,mynteye::Extrinsics>>>>>>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(364): message : 参见“std::map<mynteye::Stream,std::map<mynteye::Stream,mynteye::Extrinsics,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,mynteye::Extrinsics>>>,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,std::map<mynteye::Stream,mynteye::Extrinsics,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,mynteye::Extrinsics>>>>>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(366,55): warning C4251: “mynteye::Device::motion_intrinsics_”: class“std::shared_ptr<mynteye::MotionIntrinsics>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(366): message : 参见“std::shared_ptr<mynteye::MotionIntrinsics>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(367,55): warning C4251: “mynteye::Device::motion_from_extrinsics_”: class“std::map<mynteye::Stream,mynteye::Extrinsics,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,mynteye::Extrinsics>>>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(364): message : 参见“std::map<mynteye::Stream,mynteye::Extrinsics,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,mynteye::Extrinsics>>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(369,39): warning C4251: “mynteye::Device::stream_callbacks_”: class“std::map<mynteye::Stream,mynteye::Device::stream_callback_t,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,mynteye::Device::stream_callback_t>>>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(69): message : 参见“std::map<mynteye::Stream,mynteye::Device::stream_callback_t,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,mynteye::Device::stream_callback_t>>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(370,37): warning C4251: “mynteye::Device::motion_callback_”: class“std::function<void (const mynteye::device::MotionData &)>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\callbacks.h(131): message : 参见“std::function<void (const mynteye::device::MotionData &)>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(372,72): warning C4251: “mynteye::Device::stream_async_callbacks_”: class“std::map<mynteye::Stream,mynteye::Device::stream_async_callback_ptr_t,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,mynteye::Device::stream_async_callback_ptr_t>>>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(372): message : 参见“std::map<mynteye::Stream,mynteye::Device::stream_async_callback_ptr_t,std::less<mynteye::Stream>,std::allocator<std::pair<const mynteye::Stream,mynteye::Device::stream_async_callback_ptr_t>>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(373,53): warning C4251: “mynteye::Device::motion_async_callback_”: class“std::shared_ptr<mynteye::Device::motion_async_callback_t>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(74): message : 参见“std::shared_ptr<mynteye::Device::motion_async_callback_t>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(375,36): warning C4251: “mynteye::Device::streams_”: class“std::shared_ptr<mynteye::Streams>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(323): message : 参见“std::shared_ptr<mynteye::Streams>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(377,64): warning C4251: “mynteye::Device::stream_config_requests_”: class“std::map<mynteye::Capabilities,mynteye::StreamRequest,std::less<mynteye::Capabilities>,std::allocator<std::pair<const mynteye::Capabilities,mynteye::StreamRequest>>>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(377): message : 参见“std::map<mynteye::Capabilities,mynteye::StreamRequest,std::less<mynteye::Capabilities>,std::allocator<std::pair<const mynteye::Capabilities,mynteye::StreamRequest>>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(379,26): warning C4251: “mynteye::Device::mtx_streams_”: class“std::mutex”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.26.28801\include\mutex(87): message : 参见“std::mutex”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(381,38): warning C4251: “mynteye::Device::channels_”: class“std::shared_ptr<mynteye::Channels>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(327): message : 参见“std::shared_ptr<mynteye::Channels>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(383,36): warning C4251: “mynteye::Device::motions_”: class“std::shared_ptr<mynteye::Motions>”需要有 dll 接口由 class“mynteye::Device”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(331): message : 参见“std::shared_ptr<mynteye::Motions>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\api\api.h(51,31): warning C4251: “mynteye::api::StreamData::img”: class“std::shared_ptr<mynteye::ImgData>”需要有 dll 接口由 struct“mynteye::api::StreamData”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\callbacks.h(114): message : 参见“std::shared_ptr<mynteye::ImgData>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\api\api.h(53,16): warning C4251: “mynteye::api::StreamData::frame”: class“cv::Mat”需要有 dll 接口由 struct“mynteye::api::StreamData”的客户端使用
+C:\opencv\opencv\build\include\opencv2\core\mat.hpp(773): message : 参见“cv::Mat”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\api\api.h(55,43): warning C4251: “mynteye::api::StreamData::frame_raw”: class“std::shared_ptr<mynteye::device::Frame>”需要有 dll 接口由 struct“mynteye::api::StreamData”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\callbacks.h(116): message : 参见“std::shared_ptr<mynteye::device::Frame>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\api\api.h(74,31): warning C4251: “mynteye::api::MotionData::imu”: class“std::shared_ptr<mynteye::ImuData>”需要有 dll 接口由 struct“mynteye::api::MotionData”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\callbacks.h(127): message : 参见“std::shared_ptr<mynteye::ImuData>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\api\api.h(385,34): warning C4251: “mynteye::API::device_”: class“std::shared_ptr<mynteye::Device>”需要有 dll 接口由 class“mynteye::API”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\device\device.h(95): message : 参见“std::shared_ptr<mynteye::Device>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\api\api.h(387,40): warning C4251: “mynteye::API::synthetic_”: class“std::unique_ptr<mynteye::Synthetic,std::default_delete<mynteye::Synthetic>>”需要有 dll 接口由 class“mynteye::API”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\api\api.h(387): message : 参见“std::unique_ptr<mynteye::Synthetic,std::default_delete<mynteye::Synthetic>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\api\api.h(389,50): warning C4251: “mynteye::API::correspondence_”: class“std::unique_ptr<mynteye::Correspondence,std::default_delete<mynteye::Correspondence>>”需要有 dll 接口由 class“mynteye::API”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\api\api.h(389): message : 参见“std::unique_ptr<mynteye::Correspondence,std::default_delete<mynteye::Correspondence>>”的声明
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\api\api.h(391,30): warning C4251: “mynteye::API::callback_”: class“std::function<void (const mynteye::api::MotionData &)>”需要有 dll 接口由 class“mynteye::API”的客户端使用
+C:\MYNTEYES\SDK\2.5.0\include\mynteye\api\api.h(94): message : 参见“std::function<void (const mynteye::api::MotionData &)>”的声明
+  demo.vcxproj -> E:\program\MYTN\demo\x64\Debug\demo.exe
